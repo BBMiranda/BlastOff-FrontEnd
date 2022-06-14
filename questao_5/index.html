@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questão 05</title>
+  <!-- Código responsável por decorar as 'li' com underline e depois remover do último elemento/last-child a decoração underline -->
+  <style type="text/css">
+  .underline li {
+    text-decoration: underline;
+  }
+  .underline li:last-child {
+    text-decoration: none;
+  } 
+  </style>
+</head>
+<!-- QUESTÃO 5) Descreva em CSS a seguinte regra: somente o último item de uma lista não deve ter uma linha na sua base. -->
+<body>
+  <div class="underline">
+    <ul>
+      <li>Lista 1</li>
+      <li>Lista 2</li>
+      <li>Lista 3</li>
+      <li>Lista 4</li>
+      <li>Lista 5</li>
+    </ul>
+  </div>
+</body>
+</html>

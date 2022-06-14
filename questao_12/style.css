@@ -1,0 +1,20 @@
+/* QUESTÃO 12) Analisando a estrutura CSS a seguir, qual cor prevalecerá no elemento HTML? */
+
+li.list-item {
+color: red;
+}
+.list-item {
+color: blue
+}
+#list .list-item {
+color: green
+}
+ul li {
+color: black;
+}
+/* (a) red */
+/* (b) blue */
+/* (c) green */
+/* (d) black */
+
+/* A alternativa correta é a (C) levando em consideração a ordem de importancia, #id prevalece sobre as outras. */

@@ -1,0 +1,50 @@
+/* Grid */
+.grid {
+	display: grid;
+}
+
+.header {
+	grid-area: header;
+}
+
+.main {
+	grid-area: main;
+}
+
+.menu {
+	grid-area: menu;
+}
+
+.right {
+	grid-area: right;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+.grid-template-areas {
+	grid-template-columns: 20% 40% 40%;
+	grid-template-rows: 50px 140px 50px;
+	grid-template-areas:
+		"header header header"
+		"menu main right"
+		"menu footer footer"
+		;
+}
+
+/* Grid Item */
+.item {
+	margin: 5px;
+  padding: 5px;
+	background: aquamarine;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
+  text-transform: uppercase;
+}
